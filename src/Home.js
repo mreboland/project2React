@@ -29,42 +29,42 @@ const Home = () => {
                 <div className="wrapper-inner experience">
                     <ul>
                         <li>
-                            <h3 className="amenities-image"><i className="fas fa-sun"></i></h3>
+                            <h3 className="amenities-image"><i className="fa fa-sun"></i></h3>
                             <div className="amenities-info">
                                 <h3>SUNNY SEASON</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3 ><i className="fas fa-utensils"></i></h3>
+                            <h3 ><i className="fa fa-utensils"></i></h3>
                             <div className="amenites-info">
                                 <h3>FIVE STAR RESTAURANTS</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3><i className="fas fa-plane"></i></h3>
+                            <h3><i className="fa fa-plane"></i></h3>
                             <div className="amenities-info">
                                 <h3>FLIGHT INCLUDED</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3><i className="fas fa-glass-martini"></i></h3>
+                            <h3><i className="fa fa-glass-martini"></i></h3>
                             <div className="amenities-info">
                                 <h3>ALL INCLUSIVE</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3><i className="fas fa-leaf"></i></h3>
+                            <h3><i className="fa fa-leaf"></i></h3>
                             <div className="amenities-info">
                                 <h3>GUIDED NATURE EXPEDITIONS</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3><i className="fas fa-bell"></i></h3>
+                            <h3><i className="fa fa-bell"></i></h3>
                             <div className="amenities-info">
                                 <h3>WAKE UP SERVICES</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
@@ -87,11 +87,11 @@ const Home = () => {
                     </blockquote>
                     <div className="stars">
                         <ul>
-                            <li><i className="far fa-star"></i></li>
-                            <li><i className="far fa-star"></i></li>
-                            <li><i className="far fa-star"></i></li>
-                            <li><i className="far fa-star"></i></li>
-                            <li><i className="far fa-star"></i></li>
+                            <li><i className="fa fa-star"></i></li>
+                            <li><i className="fa fa-star"></i></li>
+                            <li><i className="fa fa-star"></i></li>
+                            <li><i className="fa fa-star"></i></li>
+                            <li><i className="fa fa-star"></i></li>
                         </ul>
                     </div>
                     <p><span className="name">Adam Levine</span> - review from <span>TripAdvisor</span></p>
