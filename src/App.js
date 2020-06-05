@@ -4,10 +4,13 @@ import Blog from "./Blog.js"
 import Contact from "./Contact.js"
 import './App.css';
 // get our fontawesome imports
-// import { faHome } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+library.add(faStroopwafel)
+
 
 class App extends Component {
   render() {
@@ -30,9 +33,9 @@ class App extends Component {
               <ul className="nav-bar-two">
                   <li><Link className="blogLink" to="/blog">BLOG</Link></li>
                   <li><Link className="contactLink" to="/contact">CONTACT</Link></li>
-                  <li><i className="fas fa-search"></i></li>
+                  <li><i className="fa fa-search"></i></li>
                   <li className="cart">
-                  <i className="fas fa-shopping-cart"></i>
+                  <i className="fa fa-shopping-cart"></i>
                   <div className="circle-test">
                     <p className="two">2</p>
                   </div>

@@ -16,7 +16,7 @@ const Contact = () => {
                 <ul className="contact-list">
                     <li>
                         <div>
-                            <i className="fas fa-mobile-alt"></i>
+                            <i className="fa fa-mobile-alt"></i>
                             <h3>Phone</h3>
                             <p>Phone 01: (0091) 8547 632521</p>
                             <p>Phone 01: (084) 965 4788</p>
@@ -24,7 +24,7 @@ const Contact = () => {
                     </li>
                     <li>
                         <div className="contact-unique1">
-                            <i className="fas fa-map-marker-alt"></i>
+                            <i className="fa fa-map-marker-alt"></i>
                             <h3>Address</h3>
                             <p>123 King Str, 4th Floor, Utral Hosue Building, Honolulu, Hawaii</p>
                         </div>
@@ -32,7 +32,7 @@ const Contact = () => {
                     </li>
                     <li className="contact-unique2">
                         <div >
-                            <i className="fas fa-envelope"></i>
+                            <i className="fa fa-envelope"></i>
                             <h3>Email</h3>
                             <div className="contact-email">
                                 <p>support@sunshine.com</p>

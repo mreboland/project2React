@@ -9,7 +9,7 @@ const Blog = () => {
 
             <header class="blog-background">
             </header>
-            
+
             <div className="wrapper-inner blog-shift">
                 <div className="width-limiter">
                     <div className="blog-title">
@@ -52,10 +52,10 @@ const Blog = () => {
                         <div className="blog-media">
                             <h3>Share:</h3>
                             <ul>
-                                <li><i className="fab fa-twitter"></i></li>
-                                <li><i className="fab fa-instagram"></i></li>
-                                <li><i className="fab fa-facebook-f"></i></li>
-                                <li><i className="fab fa-google-plus-g"></i></li>
+                                <li><i className="fa fa-twitter"></i></li>
+                                <li><i className="fa fa-instagram"></i></li>
+                                <li><i className="fa fa-facebook-f"></i></li>
+                                <li><i className="fa fa-google-plus-g"></i></li>
                             </ul>
                         </div>
 
