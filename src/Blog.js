@@ -6,6 +6,10 @@ import React from "react";
 const Blog = () => {
     return (
         <section>
+
+            <header class="blog-background">
+            </header>
+            
             <div className="wrapper-inner blog-shift">
                 <div className="width-limiter">
                     <div className="blog-title">

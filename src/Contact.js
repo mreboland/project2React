@@ -3,6 +3,10 @@ import React from "react";
 const Contact = () => {
     return (
 <div>
+
+        <header class="contact-background-header">
+        </header>
+
         <section className="wrapper-outer">
             <div className="wrapper-inner">
                 <div className="contact-details">

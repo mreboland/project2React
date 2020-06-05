@@ -7,26 +7,31 @@ import './App.css';
 // import { faHome } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 class App extends Component {
   render() {
     return (
+      <Router>
+      
+      
       <div className="App wrapper-outer">
         <nav>
           <div className="wrapper-inner">
             <div className="nav-bar">
               <ul className="nav-bar-one">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#reserve">RESERVE</a></li>
+                  <li><Link className="homeLink" to="/">HOME</Link></li>
+                  <li><a href="#about">ABOUT</a></li>
+                  <li><a href="#reserve">RESERVE</a></li>
               </ul>
               <div className="nav-logo">
                 <h1>Sunshine</h1>
               </div>
               <ul className="nav-bar-two">
-                <li><a href="./blog.html">BLOG</a></li>
-                <li><a href="./contact.html">CONTACT</a></li>
-                <li><i className="fas fa-search"></i></li>
-                <li className="cart">
+                  <li><Link className="blogLink" to="/blog">BLOG</Link></li>
+                  <li><Link className="contactLink" to="/contact">CONTACT</Link></li>
+                  <li><i className="fas fa-search"></i></li>
+                  <li className="cart">
                   <i className="fas fa-shopping-cart"></i>
                   <div className="circle-test">
                     <p className="two">2</p>
@@ -40,12 +45,10 @@ class App extends Component {
           </div>
         </nav>
 
-      <Home />
-      {/* <Blog /> */}
-      {/* <Contact /> */}
-
-
-
+          <Route exact path="/" component={Home} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/contact" component={Contact} />
+      
 
         <footer className="">
           <div className="wrapper-inner">
@@ -84,6 +87,8 @@ class App extends Component {
         </footer>
 
       </div>
+
+      </Router>
 
       
       
