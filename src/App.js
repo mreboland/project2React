@@ -23,7 +23,7 @@ class App extends Component {
           <div className="wrapper-inner">
             <div className="nav-bar">
               <ul className="nav-bar-one">
-                  <li><Link className="homeLink" to="/">HOME</Link></li>
+                  <li><Link className="homeLink" to="/project2React">HOME</Link></li>
                   <li><a href="#about">ABOUT</a></li>
                   <li><a href="#reserve">RESERVE</a></li>
               </ul>
@@ -48,7 +48,7 @@ class App extends Component {
           </div>
         </nav>
 
-          <Route exact path="/" component={Home} />
+          <Route exact path="/project2React" component={Home} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
       
