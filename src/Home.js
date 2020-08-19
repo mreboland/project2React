@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
     return (
@@ -29,28 +30,28 @@ const Home = () => {
                 <div className="wrapper-inner experience">
                     <ul>
                         <li>
-                            <h3 className="amenities-image"><i className="fa fa-sun"></i></h3>
+                            <h3 className="amenities-image icon"><FontAwesomeIcon icon={['fas', 'sun']} /></h3>
                             <div className="amenities-info">
                                 <h3>SUNNY SEASON</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3 ><i className="fa fa-utensils"></i></h3>
+                            <h3 className="icon"><FontAwesomeIcon icon={['fas', 'utensils']} /></h3>
                             <div className="amenites-info">
                                 <h3>FIVE STAR RESTAURANTS</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3><i className="fa fa-plane"></i></h3>
+                            <h3 className="icon"><FontAwesomeIcon icon={['fas', 'plane']} /></h3>
                             <div className="amenities-info">
                                 <h3>FLIGHT INCLUDED</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>
                             </div>
                         </li>
                         <li>
-                            <h3><i className="fa fa-glass-martini"></i></h3>
+                            <h3 className="icon"><FontAwesomeIcon icon={['fas', 'glass-martini']} /></h3>
                             <div className="amenities-info">
                                 <h3>ALL INCLUSIVE</h3>
                                 <p>Clean design design traveling modern travelblogger cute theme Travel. Website design WordPress webdesign adventure adventure theme.</p>

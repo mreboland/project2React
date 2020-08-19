@@ -566,6 +566,11 @@ header {
   margin-right: 20px;
 }
 
+.icon svg {
+  font-size: 3rem;
+  margin-right: 20px;
+}
+
 .experience-image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1958,6 +1963,7 @@ button {
   }
   .about-info {
     width: 70%;
+    margin-top: 100px;
   }
   .line {
     display: none;

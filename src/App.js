@@ -4,12 +4,13 @@ import Blog from "./Blog.js"
 import Contact from "./Contact.js"
 import './App.css';
 // get our fontawesome imports
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-library.add(faStroopwafel)
+library.add(fas, fab);
 
 
 class App extends Component {
@@ -74,16 +75,16 @@ class App extends Component {
                 <p>Sign up to get our newsletter</p>
                 <div className="container-mail">
                   <input type="text" className="footer-form" placeholder="email address" name="mail" required/>
-                    <button className="footer-button"><i className="far fa-paper-plane"></i></button>
+                    <button className="footer-button"><FontAwesomeIcon icon={['fas', 'paper-plane']} /></button>
                     </div>
                 </form>
             </div>
               <div className="copyright">
                 <p>Copyright &copy; 2019 HackerYou</p>
                 <ul>
-                  <li><i className="fab fa-facebook-f"></i></li>
-                  <li><i className="fab fa-twitter"></i></li>
-                  <li><i className="fab fa-instagram"></i></li>
+                  <li><FontAwesomeIcon icon={['fab', 'facebook-f']} /></li>
+                  <li><FontAwesomeIcon icon={['fab', 'twitter']} /></li>
+                  <li><FontAwesomeIcon icon={['fab', 'instagram']} /></li>
                 </ul>
               </div>
             </div>
