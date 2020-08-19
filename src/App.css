@@ -1232,7 +1232,7 @@ button {
   border-right: none;
 }
 
-.contact-list div i {
+.contact-list div svg {
   font-size: 4rem;
 }
 
@@ -1409,6 +1409,7 @@ button {
   }
   .contact-list li .contact-unique1 {
     width: 100%;
+    margin-top: 50px;
   }
   .contact-list li div {
     text-align: center;
@@ -1420,6 +1421,7 @@ button {
   .contact-list .contact-unique2 {
     border-right: none;
     width: calc(100% / 3);
+    margin-top: 50px;
   }
   .contact-email {
     width: 100%;
@@ -1570,6 +1572,7 @@ button {
   }
   .contact-list li .contact-unique1 {
     width: 100%;
+    margin-top: 50px;
   }
   .contact-list li div {
     text-align: center;
@@ -1581,6 +1584,7 @@ button {
   .contact-list .contact-unique2 {
     border-right: none;
     width: calc(100% / 3);
+    margin-top: 50px;
   }
   .contact-email {
     width: 100%;
@@ -1728,6 +1732,7 @@ button {
   }
   .contact-list li .contact-unique1 {
     width: 100%;
+    margin-top: 50px;
   }
   .contact-list li div {
     text-align: center;
@@ -1739,6 +1744,7 @@ button {
   .contact-list .contact-unique2 {
     border-right: none;
     width: calc(100% / 3);
+    margin-top: 50px;
   }
   .contact-email {
     width: 100%;
@@ -1852,6 +1858,7 @@ button {
   }
   .contact-list li .contact-unique1 {
     width: 100%;
+    margin-top: 50px;
   }
   .contact-list li div {
     text-align: center;
@@ -1863,6 +1870,7 @@ button {
   .contact-list .contact-unique2 {
     border-right: none;
     width: calc(100% / 3);
+    margin-top: 50px;
   }
   .contact-email {
     width: 100%;

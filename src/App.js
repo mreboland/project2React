@@ -24,7 +24,7 @@ class App extends Component {
           <div className="wrapper-inner">
             <div className="nav-bar">
               <ul className="nav-bar-one">
-                  <li><Link className="homeLink" to="/">HOME</Link></li>
+                  <li><Link className="homeLink" to="/project2React">HOME</Link></li>
                   <li><a href="#about">ABOUT</a></li>
                   <li><a href="#reserve">RESERVE</a></li>
               </ul>
