@@ -23,7 +23,7 @@ class App extends Component {
           <div className="wrapper-inner">
             <div className="nav-bar">
               <ul className="nav-bar-one">
-                  <li><Link className="homeLink" to="/project2React">HOME</Link></li>
+                  <li><Link className="homeLink" to="/">HOME</Link></li>
                   <li><a href="#about">ABOUT</a></li>
                   <li><a href="#reserve">RESERVE</a></li>
               </ul>
@@ -79,7 +79,7 @@ class App extends Component {
                 </form>
             </div>
               <div className="copyright">
-                <p>Copyright &copy 2019 HackerYou</p>
+                <p>Copyright &copy; 2019 HackerYou</p>
                 <ul>
                   <li><i className="fab fa-facebook-f"></i></li>
                   <li><i className="fab fa-twitter"></i></li>
