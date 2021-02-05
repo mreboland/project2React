@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/project2React/static/css/main.0eb236d8.chunk.css",
+    "main.css": "/project2React/static/css/main.983d1776.chunk.css",
     "main.js": "/project2React/static/js/main.65f20716.chunk.js",
     "main.js.map": "/project2React/static/js/main.65f20716.chunk.js.map",
     "runtime-main.js": "/project2React/static/js/runtime-main.04ccc2ed.js",
@@ -8,9 +8,9 @@
     "static/js/2.e1e4615a.chunk.js": "/project2React/static/js/2.e1e4615a.chunk.js",
     "static/js/2.e1e4615a.chunk.js.map": "/project2React/static/js/2.e1e4615a.chunk.js.map",
     "index.html": "/project2React/index.html",
-    "precache-manifest.161792166cf630f7057cf4daf33bee36.js": "/project2React/precache-manifest.161792166cf630f7057cf4daf33bee36.js",
+    "precache-manifest.f339425a2d7d3ab5fdba0705897afadc.js": "/project2React/precache-manifest.f339425a2d7d3ab5fdba0705897afadc.js",
     "service-worker.js": "/project2React/service-worker.js",
-    "static/css/main.0eb236d8.chunk.css.map": "/project2React/static/css/main.0eb236d8.chunk.css.map",
+    "static/css/main.983d1776.chunk.css.map": "/project2React/static/css/main.983d1776.chunk.css.map",
     "static/js/2.e1e4615a.chunk.js.LICENSE.txt": "/project2React/static/js/2.e1e4615a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/project2React/static/media/pattern.756cbe44.png",
     "static/media/blog-3.jpeg": "/project2React/static/media/blog-3.6e391c13.jpeg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.04ccc2ed.js",
     "static/js/2.e1e4615a.chunk.js",
-    "static/css/main.0eb236d8.chunk.css",
+    "static/css/main.983d1776.chunk.css",
     "static/js/main.65f20716.chunk.js"
   ]
 }
