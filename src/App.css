@@ -780,7 +780,7 @@ footer {
   display: flex;
   background-color: #252424;
   color: white;
-  height: 25vh;
+  padding-top: 50px;
 }
 
 footer .wrapper-inner {
@@ -1342,9 +1342,7 @@ button {
     margin-right: 0;
     margin-top: 80px;
   }
-  footer {
-    height: 70vh;
-  }
+
   footer form {
     width: 100%;
   }
@@ -1780,7 +1778,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 690px) and (max-width: 800px) {
+@media only screen and (min-width: 691px) and (max-width: 800px) {
   /*--- Tablet portrait ---*/
   .amenities {
     display: -webkit-box;
@@ -1841,6 +1839,15 @@ button {
     padding: 10px 0;
     width: 100%;
   }
+
+  .contact {
+        flex-direction: column;
+    }
+
+  .contact-info {
+      padding-top: 95px;
+  }
+
   .contact-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1906,6 +1913,26 @@ button {
   }
 }
 
+@media only screen and (min-width : 801px) and (max-width : 1424px) {
+
+    .contact {
+        flex-direction: column;
+
+    }
+
+    .contact img {
+          margin: 0 auto;
+      }
+
+    .inner-contact {
+          margin-right: 0;
+      }
+    
+    .contact-info {
+        padding-top: 95px;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*--- Small tablet landscape ---*/
   .amenities {
@@ -1928,9 +1955,6 @@ button {
   }
   .experience-image {
     margin: 0 auto;
-  }
-  footer {
-    height: 30vh;
   }
 }
 
@@ -1957,9 +1981,7 @@ button {
   .experience-image {
     margin: 0 auto;
   }
-  footer {
-    height: 40vh;
-  }
+
   .blog-shift {
     top: -70px;
   }
@@ -1997,9 +2019,7 @@ button {
   header {
     height: 73vh;
   }
-  footer {
-    height: 80vh;
-  }
+
   .blog-shift .blog-title {
     padding-top: 0;
   }
@@ -2018,18 +2038,14 @@ button {
 }
 
 @media (max-width: 1280px) and (orientation: landscape) {
-  footer {
-    height: 40vh;
-  }
+
 }
 
 @media (max-width: 740px) and (orientation: landscape) {
   header {
     height: 72vh;
   }
-  footer {
-    height: 80vh;
-  }
+
   .blog-shift {
     top: 0px;
   }
@@ -2049,9 +2065,7 @@ button {
   header {
     height: 76vh;
   }
-  footer {
-    height: 80vh;
-  }
+
   .blog-background {
     height: 76vh;
   }
@@ -2064,9 +2078,7 @@ button {
   header {
     height: 73vh;
   }
-  footer {
-    height: 80vh;
-  }
+
   .blog-background {
     height: 73vh;
   }
